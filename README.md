@@ -4,12 +4,12 @@
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Twitter Follow](https://img.shields.io/twitter/follow/strimziio?style=social)](https://twitter.com/strimziio)
 
-Strimzi OAuth for Apache Kafka
-==============================
-> **NOTE:** This repo is archived.
+# Strimzi OAuth for Apache Kafka
 
-As of [ADSINF-356](https://jira.unity3d.com/browse/ADSINF-356), we no longer use this fork. Our modifications have been re-invented as a [JAR](https://github.com/Unity-Technologies/data-kafka/tree/main/modules/broker-libs/kaas-principal-builder) that is [mounted as an ImageVolume]. This allows us to use the upstream Strimzi Kafka image.
-==============================
+> [!NOTE]
+> **This repo is archived.**
+>
+> As of [ADSINF-356](https://jira.unity3d.com/browse/ADSINF-356), we no longer use this fork. Our modifications have been re-invented as a [JAR](https://github.com/Unity-Technologies/data-kafka/tree/main/modules/broker-libs/kaas-principal-builder) that is [mounted as an ImageVolume]. This allows us to use the upstream Strimzi Kafka image.
 
 [Apache Kafka®](https://kafka.apache.org) comes with basic OAuth2 support in the form of SASL based authentication module which provides client-server retrieval, exchange and validation of access token used as credentials.
 For real world usage, extensions have to be provided in the form of JAAS callback handlers which is what Strimzi Kafka OAuth does.
